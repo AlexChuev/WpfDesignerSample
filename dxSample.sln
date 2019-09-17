@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dxSample.Core.Design", "dxSample.Design\dxSample.Core.Design.csproj", "{478C63E5-7ED5-420C-B24F-58E268D9D86B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dxSample", "dxSample.Sample\dxSample.csproj", "{5488D321-1F4C-4B48-9C12-7774A26A11E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3298100D-5762-462F-8D03-7409DD487689} = {3298100D-5762-462F-8D03-7409DD487689}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dxSample.Core", "dxSample.Core\dxSample.Core.csproj", "{3298100D-5762-462F-8D03-7409DD487689}"
 EndProject
